@@ -9,16 +9,32 @@
     height: 100vh;
 }
 
+.amarante-regular {
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+  
+
 /**/
 
-#fireplace {
+#crown {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
-#title {
-    color: white;
+/**/
+
+#pitch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
