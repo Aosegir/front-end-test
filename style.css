@@ -19,6 +19,19 @@ h2 {
     font-size: 60px;
     font-weight: bold;
 }
+
+#title {
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+}
+
+#title p {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+}
   
 
 /**/
@@ -37,4 +50,40 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
+}
+
+/**/
+
+#hall-of-fame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hall-of-fame p {
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#champion {
+    height: 250px;
+    width: auto;
+    transition: filter 1s ease-in-out;
+}
+
+#champion:hover {
+    filter: invert(1);
+}
+
+.crown {
+    margin-top: 50px;
+    opacity: 0;
+}
+
+#champion:hover + .crown {
+    transition: margin-top 1s ease-in-out 1s, opacity 2s ease-in-out 1s;
+    opacity: 1;
+    margin-top: 0;
 }
